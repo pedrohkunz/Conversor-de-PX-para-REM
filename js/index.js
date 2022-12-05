@@ -8,3 +8,9 @@ document.getElementById('converter').addEventListener("click", () => {
 
     document.getElementById("outputfahrenheit").value = `${resultado}`
 })
+
+document.getElementById('clear').addEventListener("click", () => {
+    document.getElementById("outputfahrenheit").value = `null`
+    document.getElementById("inputcelsius").value = `null`
+})
+

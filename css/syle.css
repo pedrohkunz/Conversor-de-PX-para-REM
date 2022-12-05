@@ -42,8 +42,8 @@ footer {
 }
 
 .input{
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     margin-top: 1rem;
     border-radius: 0.4rem;
     background-color: transparent;
@@ -106,7 +106,6 @@ footer {
     font-weight: 200;
     border-radius: 0.4rem;
     margin-bottom: 5rem;
-
 }
 
 .btn:hover{
@@ -114,6 +113,32 @@ footer {
     color: rgb(168, 255, 127);
 }
 
+.btn-clear{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: transparent;
+    border-color: rgb(114, 241, 241);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 0.4rem;
+    margin-bottom: 5rem;
+}
+
+.btn-clear:hover{
+    border-color: rgb(248, 40, 3);
+    color: rgb(236, 13, 5);
+}
+
+#btn-1{
+    margin-top: 2rem;
+}
+
+#btn-2{
+    margin-top: 2rem;
+}
 
 input::-webkit-inner-spin-button {
         -webkit-appearance: none;
