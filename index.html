@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Graus para Fahrenheit</title>
+    <title>Conversor Pixels para REM</title>
     <link rel="stylesheet" href="css/syle.css">
     <script src="js/index.js" defer></script>
 </head>
 <body>
+    <div id="cont-btn">
+        <button onclick="clickbtn()" id="btn"> <img id="img-btn"src="img/sun.svg"> </button>
+    </div>
     <div id="titulo">
-        <h1>Conversor de Graus Celsius para Fahrenheit</h1>
+        <h1>Conversor de Pixels para REM</h1>
     </div>
         <section id="itens">
             <article class="cont">
-                <h2 class="subtitulo">Celsius ºC</h2>
-                <input type="number" class="input" placeholder="Valor em ºC" id="inputcelsius">
+                <h2 class="subtitulo">Pixels</h2>
+                <input type="number" class="input" placeholder="Valor em Pixels" id="input">
                 <div id="btn-2">
-                    <button class="btn-clear" id="clear" type="reset">Limpar</button>
+                    <button class="btn" id="converter" type="submit">Converter</button>
                 </div>
             </article>
             <article id="igualcont">
                 <spam id="igual">=</spam>
             </article>
             <article class="cont">
-                <h2 class="subtitulo">Fahrenheit ºF</h2>
-                <input type="number" class="input" placeholder="Resultado" value="" id="outputfahrenheit" disabled="">
+                <h2 class="subtitulo">REM</h2>
+                <input type="text" class="output" placeholder="Resultado" value="" id="output" disabled="">
                 <div id="btn-1">
-                    <button class="btn" id="converter" type="submit">Converter</button>
+                    <button class="btn-clear" id="clear" type="reset">Limpar</button>
                 </div>
             </article>
         </section>
